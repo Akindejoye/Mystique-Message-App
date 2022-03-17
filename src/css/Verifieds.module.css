@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.profileBox {
+  margin-top: 1.6rem;
+  width: 18.2rem;
+  height: 16.5rem;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.statusTag {
+  width: 3.3rem;
+  height: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1rem;
+  color: #399675;
+  background-color: #39967552;
+
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+}
+
+.infoBox {
+  display: flex;
+}
+
+.profileImg {
+  margin-top: 2.8rem;
+  margin-left: 1.6rem;
+}
+
+.nameBox {
+}
+
+.profileName {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: #212327;
+  margin-top: 3.6rem;
+  margin-bottom: 1rem;
+  margin-left: 1.594rem;
+}
+
+.profileId {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1rem;
+  color: #212327;
+  margin-left: 2rem;
+}
+
+.personalBox {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1.8rem;
+  margin-left: 1.6rem;
+}
+
+.profileEmail,
+.profileMobile,
+.date {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: #212327;
+}
+
+.profileMobile {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

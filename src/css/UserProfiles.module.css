@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.section {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding-bottom: 20rem;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnHeader {
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  background-color: #fff;
+}
+
+.select {
+  width: 9.5rem;
+  height: 2.9rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  color: #161616;
+  opacity: 0.8;
+  border: 1px solid #427a98;
+  outline: none;
+  margin-right: 1rem;
+}
+
+.option {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  color: #161616;
+  opacity: 0.8;
+}
+
+.userDetails {
+  display: flex;
+  justify-content: space-around;
+}
+
+.detailsBox {
+  max-width: 45.9rem;
+  min-height: 22.9rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.userBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.userId {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+.userBoxTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 6rem;
+}
+
+.userName {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #212327;
+}
+
+.userSocail,
+.userEmail,
+.userMobile {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #212327;
+  opacity: 0.8;
+}
+
+.statusBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.statusGreen {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #2a9d8f;
+  opacity: 0.8;
+  padding: 8px 45px 8px 38px;
+  background-color: #2a9d9049;
+  margin-bottom: 1.7rem;
+}
+
+.statusRed {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #c4c4c4;
+  opacity: 0.8;
+  padding: 8px 45px 8px 38px;
+  background-color: #c4c4c470;
+}
+
+.accountInformation {
+  margin-top: 6.3rem;
+  margin-left: 3px;
+
+  display: flex;
+}
+
+.accountPlan {
+  margin-right: 1.9rem;
+  flex-basis: 30.2rem;
+}
+
+.currentPlan {
+  max-width: 30.2rem;
+  min-height: 17rem;
+  background-color: rgba(75, 54, 215, 0.15);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.planNum,
+.balanceNum {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  color: rgba(33, 35, 39, 0.9);
+}
+
+.planText,
+.balanceText {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #212327;
+}
+
+.planBalance {
+  max-width: 30.2rem;
+  min-height: 17rem;
+  background-color: #f5f7ff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.planInfoBox {
+  flex: 1;
+}
+
+.planTextBox {
+  flex-basis: 100%;
+  min-height: 3.7rem;
+  background-color: #f5f7ff;
+  margin-bottom: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.textParent {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #212327;
+  margin-left: 3.4rem;
+}
+
+.textChild {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.7rem;
+  color: rgba(33, 35, 39, 0.9);
+  display: inline-block;
+  margin: auto;
+}
+
+/************* Message History Section ***********************/
+
+.messageHistory {
+  margin-top: 4rem;
+}
+
+.messageHistoryText {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #000;
+  margin-left: 2.4rem;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4.4rem;
+}
+
+.card,
+.card1 {
+  width: 24.936rem;
+  height: 12.2rem;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  box-shadow: 2px 1px 6px -2px rgba(0, 0, 0, 0.85);
+  /* border: 1px solid #6f7e90; */
+}
+
+.card1 {
+  margin-left: 4px;
+}
+
+.cardImg {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 2.2rem;
+  background-color: rgba(111, 126, 144, 0.15);
+  border-radius: 100px;
+  position: relative;
+}
+
+.cardImgs {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 2.2rem;
+  background-color: #55987831;
+  border-radius: 100px;
+  position: relative;
+}
+
+.cardImg3 {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 2.2rem;
+  background-color: #eba15b3a;
+  border-radius: 100px;
+  position: relative;
+}
+
+.cardImg4 {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 2.2rem;
+  background-color: #fc66823d;
+  border-radius: 100px;
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.imgs {
+  position: absolute;
+  top: 1.9rem;
+  left: 2.4rem;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+}
+
+.text1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.7rem;
+  color: #212327;
+  margin-bottom: 1.2rem;
+}
+
+.text2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #212327;
+  margin-left: 0.3rem;
+}
+
+.paymentHistory {
+}
+
+.paymentHistoryText {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #000;
+  margin-left: 2.4rem;
+  margin-bottom: 2rem;
+}

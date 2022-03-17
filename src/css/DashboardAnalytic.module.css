@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  background-color: #f0f3f8;
+  display: flex;
+  min-height: 100vh;
+  padding-bottom: 20rem;
+}
+
+.main {
+  margin-top: 1.6rem;
+  margin-left: 1.5rem;
+  margin-right: 8.3rem;
+  flex: 1;
+}
+
+.headerTime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerText {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #000;
+}
+
+.userCentered {
+  display: flex;
+}
+
+.userHeaderBox {
+  width: 74.5rem;
+}
+
+.userActiveCentered {
+  display: flex;
+  margin-top: 1.8rem;
+}
+
+.userCountBox {
+  width: 35.4rem;
+  height: 33.5rem;
+  margin-right: 1.4rem;
+  background-color: #fff;
+}
+
+.userCountText {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #000;
+  opacity: 0.6;
+  padding-top: 2.4rem;
+  padding-left: 4rem;
+  margin-bottom: 1rem;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.usersDataCentered {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.newUsersBox,
+.allUsersBox,
+.notVevUsersBox,
+.verifiedUsersBox {
+  width: 12rem;
+  height: 11rem;
+  background-color: #f9f9f9;
+  margin-bottom: 2.9rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.newUserFig,
+.allUsersFig,
+.notVevUsersFig,
+.verifiedUsersFig {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: #212327;
+}
+
+.newUserText,
+.allUsersText,
+.notVevUsersText,
+.verifiedUsersText {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #212327;
+}
+
+.activeUsersBox {
+  width: 37.7rem;
+  height: 33.5rem;
+  background-color: #fff;
+}
+
+.activeUsersText {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #000;
+  opacity: 0.6;
+  padding-top: 2.4rem;
+  padding-left: 4rem;
+  margin-bottom: 1rem;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.daysActiveCentered {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.activeDays {
+  margin-top: 3.8rem;
+  margin-bottom: 3.7rem;
+}
+
+.activeDays,
+.InActiveDays {
+  width: 28.5rem;
+  height: 8.4rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.activeDaysInner,
+.InActiveDaysInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activeDaysImg,
+.InActiveDaysImg {
+  margin-top: 1.9rem;
+  margin-right: 2.5rem;
+}
+
+.activeDaysFigure,
+.InActiveDaysFigure {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: #212327;
+  margin-top: 1.9rem;
+}
+
+.activeDaysText,
+.InActiveDaysText {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #212327;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 0.3rem;
+}
+
+/*****************SECTION INFOGRAPHIC***************************/
+
+.messCon {
+  margin: 2.4rem 2rem 1.6rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.messText {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: #141414;
+  opacity: 0.6;
+}
+
+.messSelect {
+  width: 11.6rem;
+  height: 2.8rem;
+  border: none;
+  outline: none;
+
+  font-size: 1.2rem;
+  font-weight: 350;
+  line-height: 1.5rem;
+  color: #565656;
+}
+
+.border {
+  border-bottom: 0.5px solid #c4c4c4;
+  margin-bottom: 2rem;
+}
+
+/*******************PERFORMANCE SECTION******************************/
+/*********************************************************************/
+
+.performance {
+  margin-top: 1.8rem;
+  margin-left: 1.5rem;
+}
+
+.profileInfo {
+  width: 28rem;
+  height: 23.4rem;
+  border-radius: 8px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileInfoImg {
+  width: 7.842rem;
+  height: 8rem;
+  margin-top: 2.3rem;
+  margin-bottom: 1.2rem;
+}
+
+.profileName {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #212327;
+  margin-bottom: 5px;
+}
+
+.profileTitle {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #212327;
+  margin-bottom: 2.7rem;
+}
+
+.updateProfile {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #3521b5;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/******************************TIMER SMALL SECTION**********************/
+.performanceTimer {
+  width: 28rem;
+  height: 15.3rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.2rem;
+  background-color: #fff;
+}
+
+.timerHeading {
+  display: flex;
+  align-items: center;
+  margin-left: 2.5rem;
+  padding-top: 2.4rem;
+}
+
+.timerIcon {
+  margin-right: 5px;
+}
+
+.timerText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+}
+
+.timerdisplay {
+  margin-top: 2.6rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.timerdisplay span {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.1rem;
+  color: #141414;
+}
+
+.borderBottom {
+  border: 0.2px solid #e3e3e3;
+  margin-bottom: 2.5rem;
+}
+
+.timerTrack {
+  display: flex;
+  justify-content: space-around;
+}
+
+.timerTrack span {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.1rem;
+  color: #212327;
+}
+
+/**********************PAYMENT BOX SMALL SECTION***********************/
+.paymentsBox {
+  width: 28rem;
+  height: 15.3rem;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 1.4rem;
+}
+
+.paymentCentered {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+.innerPaymentCentered {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.paymentText {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #212327;
+}
+
+.paymentFig {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.1rem;
+  color: #141414;
+}
+
+.paymentChart {
+  margin-top: 4rem;
+}
+
+.paymentBorder {
+  border: 0.01px solid #e3e3e3;
+}
+
+.paymentBottomCentered {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.paymentRecievText,
+.paymentViewRepoText {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #141414;
+}
+
+/**********************USER RATES BOX SMALL SECTION***********************/
+.userRatesBox {
+  width: 28rem;
+  height: 15.3rem;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 1.4rem;
+}
+
+.userRatesCentered {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+.inneruserRatesCentered {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.userRatesText {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #212327;
+}
+
+.userRatesFig {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.1rem;
+  color: #141414;
+}
+
+.userRatesChart {
+  margin-top: 4rem;
+}
+
+.userRatesBorder {
+  border: 0.01px solid #e3e3e3;
+}
+
+.userRatesBottomCentered {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.userTimeText,
+.userReturnText {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #141414;
+}
+
+/**********************TIME ACTION SMALL SECTION***********************/
+
+.timeAction table {
+  background-color: #fff;
+}
+
+.timeActionTable {
+  background-color: #fff;
+}
+
+.timeAction tr th {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #212327;
+  letter-spacing: 0.2px;
+  background-color: #fff;
+}
+
+.timeAction tr td {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #212327;
+  letter-spacing: 0.2px;
+  background-color: #fff;
+  background-color: #fff;
+}
+
+.timeAction table tr th:first-child + th {
+  color: #0000ff;
+}

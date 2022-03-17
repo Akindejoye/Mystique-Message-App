@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.noticeBoxCentered {
+  display: flex;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.noticeProfile {
+  height: 143.7rem;
+  background-color: #fff;
+  flex: 4;
+}
+
+.noticeProfileCentered {
+}
+
+.noticeHeader {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.3rem;
+  color: #000;
+  margin-top: 7.7rem;
+  margin-left: 5.8rem;
+  margin-bottom: 5.6rem;
+}
+
+.noticeFeature {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5.7rem;
+  margin-bottom: 6rem;
+}
+
+.noticeText {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  color: #7d7d7d;
+}
+
+.checkInput {
+  position: relative;
+  width: 3.5rem;
+  height: 1.75rem;
+  appearance: none;
+  background-color: #e0e2e7;
+  outline: none;
+  border-radius: 2rem;
+  transition: 0.5s;
+  margin-right: 33.3rem;
+}
+
+.checkInput:checked {
+  background-color: #dbe7ff;
+}
+
+.checkInput::before {
+  content: "";
+  position: absolute;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 3rem;
+  top: 0;
+  left: 0;
+  background-color: #b6b7b9;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.checkInput:checked::before {
+  left: 2rem;
+  background-color: #00c1f1;
+}
+
+.inputSubmitBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 9rem;
+  margin-top: 8.5rem;
+}
+
+.inputSubmit {
+  width: 15.3rem;
+  height: 5rem;
+  border-radius: 3px;
+  border: none;
+  background-color: #3521b5;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #fff;
+  cursor: pointer;
+}

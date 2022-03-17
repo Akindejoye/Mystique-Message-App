@@ -1,0 +1,190 @@
+.boxInputNumber {
+}
+
+.boxWrapper {
+  width: 92.5%;
+  height: 32.8rem;
+  background-color: #f0f3f8;
+  margin-top: 4.2rem;
+  margin-left: 3.2rem;
+  margin-right: 0rem;
+}
+
+.boxHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxHeader1 {
+  display: flex;
+  align-items: center;
+}
+
+.headerEntry {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #427a98;
+  margin-left: 2rem;
+  margin-right: 4.4rem;
+}
+
+.headerSelect {
+  width: 11.2rem;
+  height: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: rgba(33, 35, 39, 0.7);
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.headerOption {
+  background: transparent;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.boxHeader2 {
+  display: flex;
+}
+
+.inputBox {
+  opacity: 0;
+}
+
+.uploadLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f7ff;
+  border: 1px solid #8c87af;
+  border-radius: 5px;
+  width: 16.9rem;
+  height: 4.2rem;
+  margin-right: 2.4rem;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.uploadIcon {
+  margin-right: 9px;
+}
+
+.uploadText {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #8c87af;
+}
+
+.numberInputBox {
+  position: relative;
+}
+
+.numberInput {
+  width: 96%;
+  height: 25.4rem;
+  margin-left: 1.6rem;
+  margin-right: 1rem;
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 5px;
+  vertical-align: top;
+  padding-top: 1.5rem;
+  padding-bottom: 22rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #161616;
+}
+
+.numberInput::placeholder {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  letter-spacing: 0.5px;
+  color: rgba(33, 35, 39, 0.6);
+}
+
+.inputSpan {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  letter-spacing: 0.5px;
+  color: rgba(33, 35, 39, 0.6);
+  position: absolute;
+  left: 3rem;
+  bottom: 1.2rem;
+}
+
+.recipientMessageBox {
+}
+
+.recipientMessageText {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #212327;
+  margin-top: 4.2rem;
+  margin-left: 2.9rem;
+  margin-bottom: 1.9rem;
+}
+
+.messageBoxWrapper {
+  width: 93%;
+  height: 27.1rem;
+  background-color: #f0f3f8;
+  margin-left: 2.9rem;
+  margin-right: 0rem;
+}
+
+.messageInputBox {
+  position: relative;
+}
+
+.messageInput {
+  width: 96%;
+  height: 22.7rem;
+  margin-top: 1.6rem;
+  margin-left: 1.6rem;
+  margin-right: 1rem;
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 5px;
+  vertical-align: top;
+  padding-top: 2rem;
+  padding-bottom: 20rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #161616;
+}
+
+.messageInput::placeholder {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  letter-spacing: 0.5px;
+  color: rgba(33, 35, 39, 0.6);
+}
+
+.messageInputSpan {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: #212327;
+  display: inline-block;
+  margin-left: 4rem;
+  padding-top: 5px;
+}

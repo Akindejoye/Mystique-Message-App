@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+/************************************************************************/
+/***************************** MESSAGE ********************************/
+
+.message {
+}
+
+.messageCentered {
+  padding-top: 5rem;
+  margin-bottom: 18.7rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.messageBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.messageHeader {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #212327;
+  margin-bottom: 4.9rem;
+}
+
+.emailLabel,
+.phoneLabel,
+.textLabel {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: #000;
+  opacity: 0.4;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.phoneInput,
+.messageEmailInputs {
+  width: 38rem;
+  height: 4.5rem;
+  border: 1px solid #c4c4c4;
+  margin-bottom: 2.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #131313;
+  opacity: 0.8;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.phoneInput:-webkit-autofill {
+  box-shadow: 0 0 0 50px white inset; /* Change the color to your own background color */
+  -webkit-text-fill-color: #333;
+}
+
+.phoneInput:-webkit-autofill:focus {
+  box-shadow: 0 0 0 50px white inset; /*your box-shadow*/
+  -webkit-text-fill-color: #333;
+}
+
+.textInput {
+  width: 38rem;
+  height: 14.4rem;
+  border: 1px solid #c4c4c4;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #131313;
+  opacity: 0.8;
+}
+
+.textInput::placeholder {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #000;
+  opacity: 0.8;
+  padding-left: 3rem;
+  padding-top: 1.7rem;
+}
+
+.messageBtn {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+  width: 17.8rem;
+  height: 5rem;
+  background-color: #e0e2e7;
+  border-radius: 3px;
+  border: none;
+  margin-top: 6rem;
+}
+
+.messageSocial {
+}
+
+.socialCentered {
+  margin-right: 1rem;
+}
+
+.socialHeader {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #212327;
+  margin-top: -2rem;
+  margin-bottom: 4.9rem;
+}
+
+.socialIcons {
+  display: flex;
+}
+
+.socialIconsInsta {
+  margin-right: 4rem;
+}
+
+.socialIconsFacebook {
+  margin-right: 4rem;
+}
+
+.socialIconsTwitter {
+  margin-right: 4rem;
+}
+
+.socialIconsLinkedIn {
+}
+
+/************************************************************************/
+/***************************** FAQ ********************************/
+
+.frequentQuest {
+}
+
+.questionsBox {
+  padding-top: 9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.questionImg {
+}
+
+.questionList {
+  margin-right: 4rem;
+}
+
+.questionHeader {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: #212327;
+  margin-bottom: 2.1rem;
+}
+
+.listSmallCon {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.questionIcon {
+}
+
+.questionText {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #141414;
+  margin-left: 1rem;
+}

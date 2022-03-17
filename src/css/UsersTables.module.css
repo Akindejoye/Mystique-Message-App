@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+table {
+  font-family: "Mulish", Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+table th,
+tfoot td {
+  height: 5.4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #000;
+  text-align: right;
+}
+
+table td {
+  font-size: 1.3rem;
+  height: 5.1rem;
+}
+
+table td,
+table th {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f5f7ff;
+}
+
+table tr:hover {
+  background-color: #fdfcfa;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #f5f7ff;
+  color: #000;
+}
+
+table thead tr th {
+  color: #000;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+table thead tr {
+}
+
+.up-sort {
+  display: inline-block;
+}
+
+.down-sort {
+  display: inline-block;
+}

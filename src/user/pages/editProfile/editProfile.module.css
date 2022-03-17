@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.editBoxCentered {
+  display: flex;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.editProfile {
+  height: 143.7rem;
+  background-color: #fff;
+  flex: 4;
+}
+
+.editRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.editRowUserBox {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #212327;
+  opacity: 0.8;
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.editUser {
+  margin-right: 1rem;
+}
+
+.editStatusBox {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #000;
+  opacity: 0.6;
+  margin-top: 2.2rem;
+  margin-left: 4rem;
+}
+
+.editStatus {
+  margin-right: 1.4rem;
+}
+
+.editActive {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #559878;
+}
+
+.editRow2 {
+  position: relative;
+}
+
+.editImgBox {
+  margin-top: 4.7rem;
+  margin-left: -8rem;
+}
+
+.editImg {
+  width: 19.8rem;
+  height: 19.8rem;
+}
+
+.editImgBox2 {
+}
+
+.editImgLabel {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #3521b5;
+  position: absolute;
+  right: 0rem;
+  bottom: 0.5rem;
+}
+
+.editImgIcon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.editImgInput {
+  display: none;
+}
+
+.editRow3 {
+  margin-top: 5.3rem;
+  margin-right: 4.6rem;
+}
+
+.editID {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+/***************************************INPUT SECTION*********************/
+
+.editInputBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #212327;
+  display: block;
+  margin-bottom: 1.2rem;
+}
+
+.nameBox {
+  display: flex;
+  margin-left: 7rem;
+  margin-bottom: 3.7rem;
+}
+
+.lastNameBox {
+  margin-right: 4.7rem;
+}
+
+.inputLastName {
+  width: 31rem;
+  height: 4.412rem;
+  background-color: #f5f7ff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #212327;
+  padding-left: 2rem;
+  border: none;
+  outline: none;
+}
+
+.inputFirstName {
+  width: 31rem;
+  height: 4.412rem;
+  background-color: #f5f7ff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #212327;
+  padding-left: 2rem;
+  border: none;
+  outline: none;
+}
+
+.emailBox {
+  margin-left: 7rem;
+  margin-bottom: 3.7rem;
+}
+
+.inputEmailAddress {
+  width: 67rem;
+  height: 4.4rem;
+  background-color: #f5f7ff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #212327;
+  padding-left: 2rem;
+  border: none;
+  outline: none;
+}
+
+.phoneBox {
+  margin-left: 7rem;
+  margin-bottom: 3.7rem;
+}
+
+.inputPhoneNumber {
+  width: 67rem;
+  height: 4.412rem;
+  background-color: #f5f7ff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #212327;
+  padding-left: 2rem;
+  border: none;
+  outline: none;
+}
+
+.addressBox {
+  margin-left: 7rem;
+  margin-bottom: 3.7rem;
+}
+
+.inputAddressName {
+  width: 67rem;
+  height: 4.412rem;
+  background-color: #f5f7ff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #212327;
+  padding-left: 2rem;
+  border: none;
+  outline: none;
+}
+
+.residentBox {
+  display: flex;
+  margin-left: 7rem;
+  margin-bottom: 3.7rem;
+}
+
+.inputCityName {
+  width: 31rem;
+  height: 4.412rem;
+  background-color: #f5f7ff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #212327;
+  padding-left: 2rem;
+  border: none;
+  outline: none;
+}
+
+.stateNameBox {
+  margin-left: 4.7rem;
+}
+
+.inputStateName {
+  width: 31rem;
+  height: 4.412rem;
+  background-color: #f5f7ff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #212327;
+  padding-left: 2rem;
+  border: none;
+  outline: none;
+}
+
+.countryZipBox {
+  display: flex;
+  margin-left: 7rem;
+  margin-bottom: 7rem;
+}
+
+.zipBox {
+  margin-right: 4.7rem;
+}
+
+.inputZipCode {
+  width: 31rem;
+  height: 4.412rem;
+  background-color: #f5f7ff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #212327;
+  padding-left: 2rem;
+  border: none;
+  outline: none;
+}
+
+.inputCountryName {
+  width: 31rem;
+  height: 4.412rem;
+  background-color: #f5f7ff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #212327;
+  padding-left: 2rem;
+  border: none;
+  outline: none;
+}
+
+.inputSubmitBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 9rem;
+}
+
+.inputSubmit {
+  width: 15.3rem;
+  height: 5rem;
+  border-radius: 3px;
+  border: none;
+  background-color: #3521b5;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #fff;
+  cursor: pointer;
+}

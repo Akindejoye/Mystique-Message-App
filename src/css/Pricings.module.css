@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  background-color: #f0f3f8;
+  display: flex;
+  min-height: 100vh;
+  padding-bottom: 20rem;
+}
+
+.main {
+  margin-top: 1.6rem;
+  margin-left: 1.5rem;
+  margin-right: 8.3rem;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainHeader {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  color: #141414;
+  opacity: 0.6;
+}
+
+Link:link,
+Link:visited,
+Linkd:active {
+  text-decoration: none;
+  list-style: none;
+}
+
+.subcriptionType {
+  margin-top: 3rem;
+  margin-bottom: 6.7rem;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnModify {
+  width: 17.8rem;
+  height: 5rem;
+  background-color: #3521b5;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #fff;
+  border: none;
+  outline: none;
+}

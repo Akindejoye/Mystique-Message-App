@@ -1,0 +1,437 @@
+.wrapper {
+}
+
+.wrapperCentered {
+  margin-top: 2.1rem;
+  display: flex;
+}
+
+.profileUnit {
+  height: 35.6rem;
+  background-color: #fff;
+  margin-right: 1.8rem;
+  flex: 1.4;
+}
+
+.unitCentered {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.profileImg {
+  width: 8rem;
+  height: 8rem;
+}
+
+.profileName {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+.unitAvailable {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.7rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+.unitText {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #000;
+  opacity: 0.6;
+  display: inline-block;
+  margin-top: -3rem;
+}
+
+.unitButton {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  color: #fff;
+  width: 9.5rem;
+  height: 3rem;
+  background-color: #3521b5;
+  border-radius: 2px;
+  border: none;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/***************************** UNIT BALANCE PIE CHART ************************/
+.unitBalance {
+  height: 35.6rem;
+  background-color: #fff;
+  flex: 4;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.unitChartBox {
+  margin-left: 12.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.unitBalancePieBox {
+  margin-left: -2rem;
+}
+
+.unitPieChart {
+}
+
+.unitBalanceLegendBox {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.929;
+  color: #000;
+  display: flex;
+  margin-top: 2.2rem;
+}
+
+.legendBalance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10rem;
+  margin-left: -3.5rem;
+}
+
+.legendBalanceColor {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #3521b5de;
+}
+
+.legendBalanceText {
+}
+
+.legendExpended {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legendExpendedColor {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: rgba(75, 54, 215, 0.3);
+}
+
+.legendExpendedText {
+}
+
+/***************************** UNIT BALANCE MESSAGE SUMMARY ********************/
+.summaryContainer {
+}
+
+.summaryCentered {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 2rem;
+}
+
+.summaryHeaderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.summaryHeaderText {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #000;
+}
+
+.summaryFilterBtn {
+  width: 8.1rem;
+  height: 2.9rem;
+  background-color: #8c87af;
+  border-radius: 2px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.summaryFilterImg {
+  margin-right: 2px;
+}
+
+.filterBtnText {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  color: #fff;
+}
+/***************************** CARDS SECTION ********************/
+
+.summaryCardsContainer {
+}
+
+.summaryCardsCentered {
+}
+
+.cardTop {
+  display: flex;
+  margin-bottom: 1.3rem;
+}
+
+.cardBottom {
+  display: flex;
+}
+
+.sentCard {
+  transition: 100ms ease-out;
+}
+
+.sentCard:hover {
+  transform: scale(1.1);
+}
+
+.sentCardCentered {
+  width: 12.2rem;
+  height: 11.635rem;
+  margin-right: 1.1rem;
+  background-color: rgba(226, 226, 236, 0.12);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sentCardText {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  color: #000;
+}
+
+.sentCardFigure {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+.sentCardBtn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.sentCardBtn:hover {
+  background-color: transparent;
+}
+
+.sentCardBtnText {
+  width: 4.4rem;
+  height: 2.8rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: #427a98;
+}
+
+.sentCardBtnImg {
+}
+
+/***************************** DELIVERED CARDS********************/
+.deliveredCard {
+  transition: 100ms ease-out;
+}
+
+.deliveredCard:hover {
+  transform: scale(1.1);
+}
+
+.deliveredCardCentered {
+  width: 12.2rem;
+  height: 11.635rem;
+  background-color: rgba(21, 255, 143, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.deliveredCardText {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  color: #000;
+}
+
+.deliveredCardFigure {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+.deliveredCardBtn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: rgba(21, 255, 142, 0.027);
+  cursor: pointer;
+}
+
+.deliveredCardBtn:hover {
+  background-color: rgba(255, 255, 255, 0.336);
+}
+
+.deliveredCardBtnText {
+  width: 4.4rem;
+  height: 2.8rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: #427a98;
+}
+
+.deliveredCardBtnImg {
+}
+
+/***************************** Failed CARDS********************/
+.failedCard {
+  transition: 100ms ease-out;
+}
+
+.failedCard:hover {
+  transform: scale(1.1);
+}
+
+.failedCardCentered {
+  width: 12.2rem;
+  height: 11.635rem;
+  margin-right: 1.1rem;
+  background-color: rgba(255, 14, 57, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.failedCardText {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  color: #000;
+}
+
+.failedCardFigure {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+.failedCardBtn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: rgba(255, 14, 58, 0.007);
+  cursor: pointer;
+}
+
+.failedCardBtn:hover {
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+.failedCardBtnText {
+  width: 4.4rem;
+  height: 2.8rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: #427a98;
+}
+
+.failedCardBtnImg {
+}
+
+/***************************** PENDING CARDS********************/
+.pendingCard {
+  transition: 100ms ease-out;
+}
+
+.pendingCard:hover {
+  transform: scale(1.1);
+}
+
+.pendingCardCentered {
+  width: 12.2rem;
+  height: 11.635rem;
+  background: rgba(235, 160, 91, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pendingCardText {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  color: #000;
+}
+
+.pendingCardFigure {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+.pendingCardBtn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: rgba(235, 161, 91, 0.021);
+  cursor: pointer;
+}
+
+.pendingCardBtn:hover {
+  background-color: rgba(255, 255, 255, 0.486);
+}
+
+.pendingCardBtnText {
+  width: 4.4rem;
+  height: 2.8rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: #427a98;
+}
+
+.pendingCardBtnImg {
+}

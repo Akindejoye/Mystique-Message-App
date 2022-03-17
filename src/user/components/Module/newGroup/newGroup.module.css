@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.templateWrapper {
+}
+
+.templateCentered {
+  max-width: 54.099rem;
+  min-height: 59.915rem;
+  background-color: #fff;
+  margin-top: 1.8rem;
+  margin-left: 18rem;
+}
+
+.templateHeaderBox {
+  padding-top: 3.4rem;
+  margin-right: 3.8rem;
+  margin-bottom: 3.5rem;
+  margin-left: 3.9rem;
+}
+
+.templateHeaderText {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #1e1e1e;
+}
+
+.headerBtnBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2.5rem;
+}
+
+.templateCloseBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.templateUploadBox {
+  margin-bottom: 4.5rem;
+}
+
+.uploadLabel {
+  width: 20.8rem;
+  height: 5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #fff;
+  background-color: #8c87af;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 3.9rem;
+}
+
+.templateUpload {
+  display: none;
+}
+
+.templateNameBox {
+  margin-bottom: 4.7rem;
+}
+
+.templateName {
+  width: 39.6rem;
+  height: 6rem;
+  border: 0.5px solid #c4c4c4;
+  background-color: #f0f3f8;
+  margin-left: 3.9rem;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #000;
+  padding-left: 3.3rem;
+}
+
+.templateName::placeholder,
+.templateDescription::placeholder {
+  color: #1e1e1e;
+}
+
+.templateDescriptionBox {
+  margin-bottom: 4.2rem;
+}
+
+.templateDescription {
+  width: 39.6rem;
+  height: 13.4rem;
+  border: 0.5px solid #c4c4c4;
+  background-color: #f0f3f8;
+  margin-left: 3.9rem;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #000;
+  padding-left: 3.312rem;
+  padding-top: 2rem;
+}
+
+.templateCreateBtnBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10.5rem;
+}
+
+.templateCreateBtn {
+  width: 15.3rem;
+  height: 5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #fff;
+  background-color: #3521b5;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}

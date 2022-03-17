@@ -1,0 +1,67 @@
+.cardBox1 {
+  border: none;
+  transition: 100ms ease-out;
+}
+
+.cardBox1:hover {
+  transform: scale(1.05);
+}
+
+.CardCon {
+  width: 23rem;
+  height: 11.2rem;
+  background-color: rgba(235, 161, 91, 0.068);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerCon {
+  width: 17.2rem;
+  height: 8.4rem;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCon {
+  width: 6rem;
+  height: 6rem;
+  background-color: #eba15b23;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.cardImg1 {
+  width: 2.576rem;
+  height: 1.9rem;
+}
+
+.businessTextInnerBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.figure {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.7rem;
+  color: #212327;
+}
+
+.text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+}

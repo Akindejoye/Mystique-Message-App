@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  background-color: #f0f3f8;
+  display: flex;
+  min-height: 100vh;
+}
+
+.main {
+  margin-top: 1.6rem;
+  margin-left: 1.5rem;
+  margin-right: 8.3rem;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainHeader {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #000;
+}
+
+.messageCard {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.9rem;
+}
+
+.table {
+  margin-top: 2.7rem;
+}

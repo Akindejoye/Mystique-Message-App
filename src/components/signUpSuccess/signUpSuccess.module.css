@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.wrapper {
+}
+
+.contentWrapper {
+  margin: 2rem auto;
+  width: 144rem;
+  min-height: 90rem;
+  background: linear-gradient(
+    110.59deg,
+    rgba(53, 33, 181, 0.28) 0%,
+    #4b36d7 100%
+  );
+
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  padding-top: 7.8rem;
+}
+
+.logoBox {
+  margin-bottom: 5rem;
+  margin-left: 10rem;
+}
+
+.logoText {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.leftImgbox {
+  width: 50rem;
+  height: 50rem;
+  margin-left: 5rem;
+
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+  top: 5rem;
+  left: 7rem;
+}
+
+.img2 {
+  position: absolute;
+  top: 7.119rem;
+  left: 10.676rem;
+}
+
+.right {
+  margin-left: 14.6rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.messageContainer {
+  width: 50rem;
+  height: 50rem;
+  background-color: rgba(123, 109, 217, 0.9);
+  border-radius: 1000px;
+  margin-top: 15rem;
+  margin-right: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.messageImg {
+  width: 15rem;
+  height: 15rem;
+  /* background: #57b894; */
+  object-fit: cover;
+  margin-top: -3rem;
+}
+
+.messageContainer h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.messageContainer h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin-top: -4rem;
+}
+
+.signBox {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.signBox span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin-left: 1rem;
+}

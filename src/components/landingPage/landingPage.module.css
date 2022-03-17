@@ -1,0 +1,980 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  position: relative;
+  /* z-index: -50; */
+}
+
+.container {
+  width: auto;
+  height: auto;
+  margin: 0rem 15.6rem 0rem 15.2rem;
+  background-color: #fff;
+  padding-top: 2.9rem;
+  padding-bottom: 15rem;
+
+  position: relative;
+  /* z-index: -50; */
+}
+
+/************************************************************************/
+/***************************** HEADER ************************************/
+
+.header {
+  margin-bottom: 26.155rem;
+}
+
+.backgroundBlue {
+}
+
+.blueImg {
+  position: absolute;
+  top: -1rem;
+  right: -19rem;
+  z-index: 1;
+}
+
+.backgroundNetwork {
+  position: absolute;
+  top: 19rem;
+  right: 2rem;
+  z-index: 1;
+}
+
+.network {
+}
+
+.navbar {
+  width: 107.7rem;
+  height: 8.7rem;
+  /* background-color: #aaa; */
+  margin-bottom: 15.6rem;
+  color: #264653;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  z-index: 2;
+}
+
+.logoBox {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  width: 5.8rem;
+  height: 8.7rem;
+  margin-right: 0.8rem;
+}
+
+.logoText {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  color: #264653;
+}
+
+.navLinks {
+  margin-left: 2.5rem;
+  color: #264653;
+}
+
+.active-link {
+  color: red !important;
+}
+
+.spanLink {
+  color: #fff !important;
+}
+
+.links {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #264653;
+  margin-right: 4rem;
+}
+
+.navBtns {
+  /* margin-right: 6rem; */
+}
+
+.btnText {
+  width: 13.8rem;
+  height: 4.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #3521b5;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.welcomeWrapper {
+  width: 48.8rem;
+  height: 44.9rem;
+  position: relative;
+  z-index: 5;
+}
+
+.welcomeCenter {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.welcomeHeading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  letter-spacing: 1.5px;
+  color: #212327;
+  margin-bottom: 4.3rem;
+}
+
+.welcomeHeading span {
+  color: #fff;
+}
+
+.welcomeText1 {
+  margin-bottom: 2.7rem;
+}
+
+.welcomeText1,
+.welcomeText2,
+.welcomeText3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #212327;
+}
+
+.welcomeText2 {
+  margin-bottom: 4.4rem;
+}
+
+.welcomeText3 {
+  margin-bottom: 6rem;
+  font-weight: 500;
+}
+
+.welcomeBtn {
+  width: 23.8rem;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #fff;
+  background-color: #3521b5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/************************************************************************/
+/***************************** SIMPLE ************************************/
+
+.simple {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.simpleImgBox {
+  margin-top: 4rem;
+}
+
+.simpleImg {
+}
+
+.simpleTextBox {
+}
+
+.simpleHeading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  letter-spacing: 1.5px;
+  color: #212327;
+  margin-bottom: 4.3rem;
+}
+
+.simpleText1,
+.simpleText2,
+.simpleText3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #212327;
+}
+
+.simpleText1 {
+  margin-bottom: 2.7rem;
+}
+
+.simpleText2 {
+  margin-bottom: 4.4rem;
+}
+
+.simpleText3 {
+  margin-bottom: 6rem;
+  font-weight: 500;
+}
+
+.simpleBtn {
+  width: 23.8rem;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #fff;
+  background-color: #3521b5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/************************************************************************/
+/***************************** BUSINESS **********************************/
+
+.business {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30.153rem;
+
+  position: relative;
+}
+
+.businessBackground {
+  position: absolute;
+  top: -32.5rem;
+  right: 0rem;
+  z-index: 2;
+}
+
+.businessImgBox {
+  margin-top: 4rem;
+}
+
+.businessImg {
+}
+
+.businessTextBox {
+  display: relative;
+  z-index: 5;
+}
+
+.businessHeading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  letter-spacing: 1.5px;
+  color: #212327;
+  margin-bottom: 4.3rem;
+}
+
+.businessText1,
+.businessText2,
+.businessText3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #212327;
+}
+
+.businessText1 {
+  margin-bottom: 2.7rem;
+}
+
+.businessText2 {
+  margin-bottom: 4.4rem;
+}
+
+.businessText2White {
+  color: #fff;
+}
+
+.businessText3 {
+  margin-bottom: 6rem;
+  font-weight: 500;
+}
+
+.businessBtn {
+  width: 23.8rem;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #fff;
+  background-color: #3521b5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.businessCardBox {
+}
+
+/************************************************************************/
+/***************************** PRICELESS **********************************/
+
+.priceless {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30.153rem;
+
+  position: relative;
+}
+
+.pricelessImgBox {
+  width: 80rem;
+  height: 55.675rem;
+  margin-top: 4rem;
+}
+
+.pricelessImg {
+  position: absolute;
+  z-index: 0;
+}
+
+.pricelessTextBox {
+  width: 52.2rem;
+  height: 46.3rem;
+}
+
+.pricelessHeading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  letter-spacing: 1.5px;
+  color: #212327;
+  margin-bottom: 4.3rem;
+}
+
+.pricelessText1,
+.pricelessText2,
+.pricelessText3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #212327;
+}
+
+.pricelessText1 {
+  margin-bottom: 2.7rem;
+}
+
+.pricelessText2 {
+  margin-bottom: 4.4rem;
+}
+
+.pricelessText3 {
+  margin-bottom: 6rem;
+  font-weight: 500;
+}
+
+.pricelessBtn {
+  width: 23.8rem;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #fff;
+  background-color: #3521b5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/************************************************************************/
+/***************************** TESTIMONIAL ******************************/
+
+.testimonial {
+}
+
+.testimonialBox {
+  margin-top: 18.6rem;
+}
+
+.boxHeader {
+  margin-left: 1.5rem;
+  margin-bottom: 4.2rem;
+}
+
+.testimonialHeader {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  color: #212327;
+}
+
+.testimonialText {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #212327;
+}
+
+.testimonialSliderBox {
+  height: 41rem;
+  display: flex;
+  align-items: center;
+  background: rgba(111, 126, 144, 0.2);
+
+  position: relative;
+}
+
+.slide {
+  width: 36rem;
+  height: 25.6rem;
+  margin-left: 18.7rem;
+}
+
+.testimonial2 {
+  display: flex;
+  align-items: center;
+}
+
+.testimonialImg {
+  margin-right: 2.7rem;
+}
+
+.testimonialDetailBox {
+}
+
+.testimonialName {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #212327;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.testimonialJob {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #212327;
+  display: block;
+}
+
+.textBox {
+}
+
+.text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #212327;
+}
+
+.textSpan {
+  display: inline-block;
+  padding-top: 0.5rem;
+}
+
+.slide2 {
+  margin-left: 7rem;
+}
+
+.left {
+  position: absolute;
+  top: 19rem;
+  left: 3.3rem;
+}
+
+.right {
+  position: absolute;
+  top: 19rem;
+  right: 3.3rem;
+}
+
+/************************************************************************/
+/***************************** PLATFORM ********************************/
+
+.platform {
+  margin-top: 24.9rem;
+}
+
+.platformHeadBox {
+  margin-bottom: 8.4rem;
+}
+
+.platformHeadText {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  color: #212327;
+}
+
+.cardCentered {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+}
+
+/************************************************************************/
+/***************************** HELP ********************************/
+
+.help {
+}
+
+.helpBox {
+  width: 100%;
+  height: 62.7rem;
+  background-color: #4b36d7;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.helpTexBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+
+  position: relative;
+}
+
+.helpTexHeader {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 6.1rem;
+  color: #fff;
+  margin-top: 17rem;
+}
+
+.helpTexMore {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #fff;
+}
+
+.helpInputBox {
+  width: 38.5rem;
+  height: 3.7rem;
+  background-color: #fff;
+  border-radius: 2px;
+  position: relative;
+}
+
+.helpInputIcon {
+  position: absolute;
+  top: 1.2rem;
+  left: 2rem;
+}
+
+.helpInput {
+  width: 87.7%;
+  height: 92%;
+  margin-left: 4.6rem;
+  margin-top: 0.1rem;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
+  color: #212327;
+  position: absolute;
+  z-index: 999;
+}
+
+.helpInput::placeholder {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: #212327;
+  padding-left: 1rem;
+}
+
+.helpQuestions {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.2px;
+  color: #f7f7f7;
+}
+
+.rightAngle {
+  position: absolute;
+  top: 19rem;
+  right: 48.5rem;
+  z-index: -5;
+}
+
+.circleShape {
+  position: absolute;
+  top: 19rem;
+  left: 62rem;
+  z-index: -5;
+}
+
+.circleShapeDark {
+  position: absolute;
+  top: 21rem;
+  left: 68.9rem;
+  z-index: -5;
+}
+
+.ecllipseLeft {
+  position: absolute;
+  top: -0.19rem;
+  left: 0rem;
+}
+
+.ecllipseRight {
+  position: absolute;
+  bottom: 0rem;
+  right: -10rem;
+}
+
+/************************************************************************/
+/***************************** FAQ ********************************/
+
+.frequentQuest {
+}
+
+.questionsBox {
+  padding-top: 9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.questionImg {
+}
+
+.questionList {
+  margin-right: 4rem;
+}
+
+.questionHeader {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: #212327;
+  margin-bottom: 2.1rem;
+}
+
+.listSmallCon {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.questionIcon {
+}
+
+.questionText {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #141414;
+  margin-left: 1rem;
+}
+
+/************************************************************************/
+/***************************** MESSAGE ********************************/
+
+.message {
+}
+
+.messageCentered {
+  padding-top: 15rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.messageBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.messageHeader {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #212327;
+  margin-bottom: 4.9rem;
+}
+
+.emailLabel,
+.phoneLabel,
+.textLabel {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: #000;
+  opacity: 0.4;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.phoneInput,
+.messageEmailInputs {
+  width: 38rem;
+  height: 4.5rem;
+  border: 1px solid #c4c4c4;
+  margin-bottom: 2.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #000;
+  opacity: 0.8;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.textInput {
+  width: 38rem;
+  height: 14.4rem;
+  border: 1px solid #c4c4c4;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #000;
+  opacity: 0.8;
+}
+
+.textInput::placeholder {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #000;
+  opacity: 0.8;
+  padding-left: 3rem;
+  padding-top: 1.7rem;
+}
+
+.messageBtn {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+  width: 17.8rem;
+  height: 5rem;
+  background-color: #e0e2e7;
+  border-radius: 3px;
+  border: none;
+  margin-top: 6rem;
+}
+
+.messageSocial {
+}
+
+.socialCentered {
+  margin-right: 1rem;
+}
+
+.socialHeader {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #212327;
+  margin-top: -2rem;
+  margin-bottom: 4.9rem;
+}
+
+.socialIcons {
+  display: flex;
+}
+
+.socialIconsInsta {
+  margin-right: 4rem;
+}
+
+.socialIconsFacebook {
+  margin-right: 4rem;
+}
+
+.socialIconsTwitter {
+  margin-right: 4rem;
+}
+
+.socialIconsLinkedIn {
+}
+
+/************************************************************************/
+/***************************** FOOTER ********************************/
+
+.footer {
+}
+
+.footerCentered {
+  margin-top: 17.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstColumn {
+}
+
+.footerLogoCon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footerLogoImg {
+  width: 5.8rem;
+  height: 6.8rem;
+}
+
+.footerLogoText {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  margin-left: 8px;
+  color: #264653;
+}
+
+.fotterEmail,
+.fotterContact {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #212327;
+  margin-bottom: 2.2rem;
+}
+
+.fotterContact {
+}
+
+.secondColumn {
+}
+
+.secondColumnheader {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #212327;
+  margin-bottom: 3.9rem;
+}
+
+.secondColumnText {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #212327;
+  margin-bottom: 2.2rem;
+}
+
+.thirdColumn {
+}
+
+.thirdColumnheader {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #212327;
+  margin-bottom: 3.9rem;
+}
+
+.thirdColumnText {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #212327;
+  margin-bottom: 2.2rem;
+}
+
+.fourthColumn {
+}
+
+.fourthColumnheader {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #212327;
+  margin-bottom: 3.9rem;
+}
+
+.fourthColumnText {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #212327;
+  margin-bottom: 2.2rem;
+}
+
+.fourthdColumnTextG {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #2a9d8f;
+  margin-bottom: 3.8rem;
+}
+
+.fourthColumnIcons {
+}
+
+.fourthColumnInsta {
+}
+
+.fourthColumnFacebook {
+  margin-left: 3rem;
+}
+
+.fourthColumnTwitter {
+  margin-left: 3rem;
+}
+
+.fourthColumnLinkedIn {
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
+
+/************************************************************************/
+/***************************** RESERVED ********************************/
+
+.reserved {
+}
+
+.reservedBox {
+  width: 100%;
+  height: 9.3rem;
+  background-color: #4b36d7;
+}
+
+.reservedTextBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.reservedText {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #fff;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}

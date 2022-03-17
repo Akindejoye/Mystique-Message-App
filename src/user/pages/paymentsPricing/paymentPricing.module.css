@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.pricingWrapper {
+  width: 100%;
+  height: 88.6rem;
+  background-color: transparent;
+  margin-top: 0.5rem;
+
+  position: relative;
+}
+
+.pricingCentered {
+  width: 100%;
+  height: 88.6rem;
+  background-size: auto 92rem;
+}
+
+.pricingHeaderBox {
+  margin-left: 2.4rem;
+  padding-top: 1.6rem;
+  margin-right: 4.8rem;
+  margin-bottom: 5.2rem;
+}
+
+.pricingHeaderSubBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricingHeader {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #000;
+  margin-bottom: 3.3rem;
+}
+
+.pricingUnitsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricingUnits {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #000;
+}
+
+.pricingUnitsText {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+.pricingSubHeader {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #000;
+}
+
+.pricingMain {
+  display: flex;
+}
+
+.pricingPlanWrapper {
+  margin-left: 2.4rem;
+}
+
+.pricingPlanBtnBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3.5rem;
+}
+
+.pricingPlanBtn {
+  width: 17.8rem;
+  height: 5rem;
+  background: #3521b5;
+  border-radius: 3px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #fff;
+  border: none;
+}
+
+.pricingPaymentWrapper {
+  margin-left: 4.4rem;
+}
+
+.paymentHeader {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #000;
+  margin-bottom: 4.4rem;
+}
+
+.paymentText {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  color: #000;
+}
+
+.paymentSpan {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.pendingPaymentBox {
+  margin-top: 14.3rem;
+}
+
+.pendingPaymentText {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  color: #399675;
+  margin-bottom: 4.2rem;
+}
+
+.pendingPaymentBtn {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #fff;
+  width: 17.8rem;
+  height: 5rem;
+  background: #399675;
+  border: 0.5px solid #ffffff;
+  border-radius: 3px;
+}
+.planHistoryBtnBox {
+  position: absolute;
+  bottom: 3.3rem;
+  right: 2.7rem;
+}
+
+.planHistoryBtn {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #8c87af;
+  width: 17.8rem;
+  height: 5rem;
+  background: #ffffff;
+  border: 0.5px solid #8c87af;
+  border-radius: 3px;
+}

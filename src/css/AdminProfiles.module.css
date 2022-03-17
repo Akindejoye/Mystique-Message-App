@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  background-color: #f0f3f8;
+  display: flex;
+  min-height: 100vh;
+  padding-bottom: 20rem;
+}
+
+.main {
+  margin-top: 1.6rem;
+  margin-left: 1.5rem;
+  margin-right: 8.3rem;
+  /* flex: 1; */
+}
+
+.headerTime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerText {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #000;
+}
+
+.adminCentered {
+  display: flex;
+}
+
+.adminDetais {
+  width: 52rem;
+  height: 89.2rem;
+  background-color: #fff;
+  margin-top: 4rem;
+  margin-right: 1.9rem;
+
+  position: relative;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.detailsText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #212327;
+  margin-top: 2.1rem;
+  margin-left: 2.4rem;
+
+  position: absolute;
+  top: 0.2rem;
+  left: 0.5rem;
+}
+
+.backgroundImg {
+  position: absolute;
+  top: 4.9rem;
+  right: 5.617rem;
+}
+
+.imgProfile {
+  width: 16.3rem;
+  height: 17.128rem;
+
+  position: absolute;
+  top: 4.924rem;
+  left: 17.53rem;
+}
+
+.profileName {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #212327;
+
+  position: absolute;
+  top: 24.836rem;
+  left: 19rem;
+}
+
+.profileTitle {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #212327;
+
+  position: absolute;
+  top: 29rem;
+  left: 21rem;
+}
+
+.backgroundImg2 {
+  position: absolute;
+  top: 24.1rem;
+  left: 3.177rem;
+}
+
+.accessLevelBox {
+  position: absolute;
+  top: 42.4rem;
+  left: 7.3rem;
+}
+
+.titleWords {
+  display: flex;
+  margin-bottom: 4.7rem;
+}
+
+.titleWords p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-right: 3rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.titleWords span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #141441;
+}
+
+.permyWords {
+  display: flex;
+  margin-bottom: 4.3rem;
+}
+
+.permyWords p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-right: 4rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.permyWords span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #141441;
+}
+
+.refWords {
+  display: flex;
+  margin-bottom: 4.3rem;
+}
+
+.refWords p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  margin-right: 5rem;
+  letter-spacing: 0.2px;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.refWords span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #141441;
+}
+
+.dateWords {
+  display: flex;
+}
+
+.dateWords p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  margin-right: 3rem;
+  letter-spacing: 0.2px;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.dateWords span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #141441;
+}
+
+.btnEdit {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: #3521b5;
+  border: none;
+  outline: none;
+
+  position: absolute;
+  right: 10.6rem;
+  bottom: 14rem;
+}
+
+/************************** SECTION EVENTS *********************/
+
+.adminEvents {
+  width: 58rem;
+  min-height: 89.2rem;
+  background-color: #f0f3f8;
+  margin-top: 4rem;
+
+  position: relative;
+}
+
+.eventsCentered {
+  width: 58rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.addAdminBtnBox {
+  width: 21.5rem;
+  height: 9.7rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.addAdminBtnImg {
+  margin-left: 3.4rem;
+}
+
+.addAdminText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+  margin-left: 1.6rem;
+}
+
+.addUserBtnBox {
+  width: 21.5rem;
+  height: 9.7rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.addUserBtn {
+  border: none;
+  outline: none;
+  margin-left: 3.4rem;
+}
+
+.addUserBtnImg {
+  margin-left: 3.4rem;
+}
+
+.addUserText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+  margin-left: 1.6rem;
+}
+
+.viewAnalBtn {
+  width: 21.5rem;
+  height: 9.7rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.analImg {
+  margin-left: 3.4rem;
+}
+
+.viewAnalText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+  margin-left: 1.6rem;
+}
+
+.viewUserBtn {
+  width: 21.5rem;
+  height: 9.7rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.viewUserBtnImg {
+  margin-left: 3.4rem;
+}
+
+.viewUserText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+  margin-left: 1.6rem;
+}
+
+.viewActiveBtn {
+  width: 21.5rem;
+  height: 9.7rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.viewActiveBtnImg {
+  margin-left: 3.4rem;
+}
+
+.viewActiveText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+  margin-left: 1.6rem;
+}
+
+.viewInActiveBtn {
+  width: 21.5rem;
+  height: 9.7rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.viewInActiveBtnImg {
+  margin-left: 3.4rem;
+}
+
+.viewInActiveText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+  margin-left: 1.6rem;
+}
+
+.viewSuspendBtn {
+  width: 21.5rem;
+  height: 9.7rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.viewSuspendBtnImg {
+  margin-left: 3.4rem;
+}
+
+.viewSuspendText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+  margin-left: 1.6rem;
+}
+
+.managePasswordBtn {
+  width: 21.5rem;
+  height: 9.7rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.managePasswordBtnImg {
+  margin-left: 3.4rem;
+}
+
+.managePasswordText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+  margin-left: 1.6rem;
+}
+
+.alertBox {
+  width: 44.1rem;
+  height: 41.6rem;
+  background-color: #fff;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.alertText {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+
+  position: absolute;
+  top: 3.1rem;
+  left: 3.5rem;
+}
+
+.alertBtn {
+  border: none;
+  background-color: #fff;
+
+  position: absolute;
+  top: 9.9rem;
+  left: 12.6rem;
+}
+
+.alertBtnImg {
+}

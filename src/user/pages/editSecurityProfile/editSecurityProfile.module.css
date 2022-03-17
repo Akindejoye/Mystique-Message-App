@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.securityBoxCentered {
+  display: flex;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.changePasswordBox {
+  height: 143.7rem;
+  background-color: #fff;
+  flex: 4;
+}
+
+.passwordCentered {
+  padding-top: 4.8rem;
+  padding-left: 12.6rem;
+}
+
+.settingHeader {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  color: #000;
+  margin-bottom: 10.9rem;
+}
+
+.authBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6.2rem;
+}
+
+.authText,
+.updateText {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+.authInput {
+  position: relative;
+  width: 3.5rem;
+  height: 1.75rem;
+  appearance: none;
+  background-color: #e0e2e7;
+  outline: none;
+  border-radius: 2rem;
+  transition: 0.5s;
+  margin-left: 13.3rem;
+}
+
+.authInput:checked {
+  background-color: #dbe7ff;
+}
+
+.authInput::before {
+  content: "";
+  position: absolute;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 3rem;
+  top: 0;
+  left: 0;
+  background-color: #b6b7b9;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.authInput:checked::before {
+  left: 2rem;
+  background-color: #00c1f1;
+}
+
+.updateText {
+  margin-bottom: 4.7rem;
+}
+
+.labelSecure {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  color: #000;
+  opacity: 0.8;
+  margin-bottom: 2.3rem;
+}
+
+.updateForm {
+}
+
+.genInput {
+  width: 52.3rem;
+  height: 4.4rem;
+  background-color: #f5f7ff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #212121;
+  padding-left: 2rem;
+  outline: none;
+  border: none;
+  margin-bottom: 2.5rem;
+}
+
+.genInput::placeholder {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #c1c1c1;
+}
+
+.inputSubmitBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4.8rem;
+  margin-right: 18.1rem;
+}
+
+.inputSubmit {
+  width: 15.3rem;
+  height: 5rem;
+  border-radius: 3px;
+  border: none;
+  background-color: #3521b5;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,191 @@
+.smsWrapper {
+}
+
+.smsCentered {
+  width: 100%;
+  height: 105.8rem;
+  background-color: #fff;
+  margin-top: 1.9rem;
+  position: relative;
+}
+
+.smsChartSection {
+}
+
+.chartHeader {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.48rem;
+  letter-spacing: 0.05em;
+  color: #053a3e;
+  padding-top: 3.7rem;
+  margin-left: 3.1rem;
+  margin-bottom: 1rem;
+}
+
+.chartInstruction {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.791rem;
+  color: #888;
+  margin-left: 3.1rem;
+  margin-bottom: 6.5rem;
+}
+
+.chart {
+}
+
+.selectYear,
+.selectMonth {
+  width: 9.2rem;
+  height: 2.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.205rem;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border: 0.5px solid #e8e2e2;
+  border-radius: 5px;
+}
+
+.selectYear {
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+}
+
+.selectMonth {
+  position: absolute;
+  bottom: 60rem;
+  right: 4rem;
+}
+
+.payment {
+}
+
+.paymentCentered {
+  margin-top: 13.1rem;
+}
+
+.paymentHeader {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+  margin-left: 3.1rem;
+  margin-bottom: 2.45rem;
+}
+
+.paymentHeaderBorder {
+  width: 90%;
+  border: 0.5px solid #c4c4c4;
+  margin-left: 3rem;
+}
+
+.paymentDetailsBox {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.79rem;
+  color: #000;
+}
+
+.paymentDetail1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 4.7rem;
+  margin-top: 3.75rem;
+  margin-bottom: 3.4rem;
+}
+
+.paymentDetail1A {
+}
+
+.paymentDetailB {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.67rem;
+  color: #000;
+}
+
+.paymentDetail2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 4.7rem;
+  margin-bottom: 2.9rem;
+  height: 5.9rem;
+  background: rgba(193, 193, 193, 0.1);
+}
+
+.paymentDetail2A {
+}
+
+.paymentDetail2B {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.67rem;
+  color: #000;
+}
+
+.paymentDetail3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 4.7rem;
+  margin-bottom: 3.4rem;
+}
+
+.paymentDetail3A {
+}
+
+.paymentDetail3B {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.67rem;
+  color: #39bf7f;
+}
+
+.paymentDetail4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 4.7rem;
+  margin-bottom: 2.9rem;
+  height: 5.9rem;
+  background: rgba(193, 193, 193, 0.1);
+}
+
+.paymentDetail4A {
+}
+
+.paymentDetail4B {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.67rem;
+  color: #000;
+}
+
+.paymentDetail5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 4.7rem;
+}
+
+.paymentDetail5A {
+}
+
+.paymentDetail5B {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.67rem;
+  color: #000;
+}

@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.profileBox {
+}
+
+.profileBoxCentered {
+  display: flex;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+/******************************DATA PROFILE SECTION**********************/
+
+.dataProfile {
+  height: 143.7rem;
+  background-color: #fff;
+  flex: 4;
+}
+
+.dataProfileCentered {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dataProfileC1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #212327;
+  opacity: 0.8;
+  height: 30rem;
+  margin-top: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dataProfileName {
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  color: #212327;
+  opacity: 1;
+  margin-top: 2.5rem;
+}
+
+.userBoxs {
+}
+
+.userTexts {
+  margin-right: 1.3rem;
+}
+
+.userNames {
+}
+
+.emailText {
+  margin-right: 1.3rem;
+}
+
+.phoneText {
+  margin-right: 1.5rem;
+}
+
+.userId {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #000;
+  opacity: 1;
+}
+
+.dataProfileC2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userImg {
+  width: 19.8rem;
+  height: 19.8rem;
+}
+
+.statusBox {
+  margin-top: 4.1rem;
+}
+
+.statusText {
+  margin-right: 1.5rem;
+  margin-left: 3rem;
+}
+
+.statusText,
+.status {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #000;
+  opacity: 0.6;
+}
+
+.status {
+  color: #559878;
+  opacity: 1;
+}
+
+.dataProfileC3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.unitFigure {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: rgba(33, 35, 39, 0.9);
+  display: inline-block;
+  margin-top: -11rem;
+}
+
+.unitText {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #212327;
+}
+
+.btnUnit {
+  width: 9.5rem;
+  height: 3.2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  color: #fff;
+  background-color: #3521b5;
+  border-radius: 2px;
+  border: none;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+/*************************ACCOUNT SECTION***************************/
+
+.accountInfo {
+}
+
+.accountInfoCentered {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #212327;
+  margin-top: 3.8rem;
+  margin-left: 2.1rem;
+  margin-right: 1.7rem;
+}
+
+.accountBox {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+  margin-bottom: 1.8rem;
+  height: 3.7rem;
+  background-color: #f5f7ff;
+}
+
+.typeText {
+  margin-right: 13.1rem;
+  margin-bottom: 3.9rem;
+}
+
+.accountType {
+  font-weight: 600;
+  color: rgba(33, 35, 39, 0.9);
+}
+
+.userBox {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+  margin-bottom: 1.8rem;
+  height: 3.7rem;
+  background-color: #f5f7ff;
+}
+
+.userText {
+  margin-right: 15.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.userType {
+  font-weight: 600;
+  color: rgba(33, 35, 39, 0.9);
+}
+
+.createdBox {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+  margin-bottom: 1.8rem;
+  height: 3.7rem;
+  background-color: #f5f7ff;
+}
+
+.createdText {
+  margin-right: 9rem;
+  margin-bottom: 3.8rem;
+}
+
+.createdDate {
+  font-weight: 600;
+  color: rgba(33, 35, 39, 0.9);
+}
+
+.companyBox {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+  margin-bottom: 1.8rem;
+  height: 3.7rem;
+  background-color: #f5f7ff;
+}
+
+.companyName {
+  margin-right: 11.5rem;
+  margin-bottom: 3.7rem;
+}
+
+.companyStatus {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgba(33, 35, 39, 0.9);
+}
+
+.addressBox {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+  margin-bottom: 1.8rem;
+  height: 3.7rem;
+  background-color: #f5f7ff;
+}
+
+.addressText {
+  margin-right: 16.5rem;
+}
+
+.address {
+  font-weight: 600;
+  color: rgba(33, 35, 39, 0.9);
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.wrapper {
+  width: auto;
+  min-height: 100vh;
+  background-color: #f0f3f8;
+  padding-bottom: 30rem;
+  overflow: hidden;
+
+  display: flex;
+}
+
+.container {
+  flex: 4;
+  padding-bottom: 5rem;
+  background-color: #f0f3f8;
+}
+
+header {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #000;
+  background-color: red;
+  margin-bottom: 4rem;
+  height: 4rem;
+}
+
+main {
+  margin-left: 2.2rem;
+  margin-right: 8.4rem;
+
+  position: relative;
+}
+
+.circleBackground {
+  position: absolute;
+  top: -5rem;
+  left: 20rem;
+}
+
+.shineBackground {
+  position: absolute;
+  top: -2.5rem;
+  left: 45rem;
+}

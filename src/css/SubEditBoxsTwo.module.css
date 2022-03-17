@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.subContainer {
+  width: 50.5rem;
+  height: 29.6rem;
+  margin-right: 1.5rem;
+  margin-left: 3rem;
+  margin-bottom: 1.4rem;
+  background-color: #fff;
+
+  display: flex;
+}
+
+.subStatus {
+  width: 19.5rem;
+  height: 29.6rem;
+  background-color: #8c87af5e;
+
+  position: relative;
+}
+
+.subStatusImg {
+  position: absolute;
+  bottom: 0rem;
+}
+
+.subStatusText {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #559878;
+
+  position: absolute;
+  top: 22rem;
+  left: 5.7rem;
+}
+
+.subInfo {
+  margin-left: 4.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  position: relative;
+}
+
+.subRange {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #212327;
+}
+
+.subPriceEdit {
+  width: 20.1rem;
+  height: 5.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #212327;
+  outline: none;
+  background-color: #fcfcfc;
+  border: 0.5px solid #99ede8;
+}
+
+.subPriceEdit::placeholder {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #212327;
+  padding-left: 2.3rem;
+  padding-top: 1.8rem;
+}
+
+.priceSpan {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #212327;
+  display: inline-block;
+
+  position: absolute;
+  top: 14.3rem;
+  left: 20.5rem;
+}
+
+.subEditbtn {
+  width: 2.9rem;
+  height: 2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #4b36d7;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}

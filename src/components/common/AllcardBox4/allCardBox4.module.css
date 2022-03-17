@@ -1,0 +1,69 @@
+.cardBox4 {
+  border: none;
+  transition: 100ms ease-in;
+}
+
+.cardBox4:hover {
+  transform: scale(1.05);
+}
+
+.CardCon4 {
+  width: 23rem;
+  height: 11.2rem;
+  background: rgba(252, 102, 129, 0.13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerCon4 {
+  width: 17.2rem;
+  height: 8.4rem;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCon4 {
+  width: 6rem;
+  height: 6rem;
+  background-color: #fc668217;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+
+  position: relative;
+}
+
+.cardImg4 {
+  width: 2.576rem;
+  height: 1.9rem;
+}
+
+.businessTextInnerBox4 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.figure4 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.7rem;
+  color: #212327;
+}
+
+.text4 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+}

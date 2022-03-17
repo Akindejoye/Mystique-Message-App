@@ -1,0 +1,109 @@
+/***********************************TABLE BOX****************************/
+
+.tableBox {
+  position: relative;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  max-width: 24rem;
+}
+
+.tableBoxCentered {
+  /* max-width: 23.5rem; */
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 2.8rem;
+  box-shadow: 0px 0px 10px rgba(34, 91, 204, 0.1);
+  margin-left: 1.7rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headBox {
+  display: flex;
+  align-items: center;
+  height: 4.2rem;
+  background-color: #22cc2841;
+  padding-left: 1.502rem;
+  width: 100%;
+}
+
+.headTxBox {
+  display: flex;
+  align-items: center;
+  margin-right: 6rem;
+}
+
+.headId {
+  font-size: 1.4;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #000;
+}
+
+.headStatus {
+  font-size: 1.2;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.headBoxImg {
+}
+
+.tableContBox {
+  display: flex;
+  padding-left: 1.502rem;
+  margin-top: 3.3rem;
+}
+
+.contTag {
+  font-size: 1.4;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #000;
+  margin-right: 1.7rem;
+}
+
+.tableCont {
+  font-size: 1.2;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.messBodyBox {
+  margin-bottom: 2.9rem;
+  padding-left: 1.502rem;
+}
+
+.messBodyTag {
+  font-size: 1.4;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #000;
+}
+
+.messBodyText {
+  font-size: 1.2;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.dateTimeBox {
+  font-size: 1.2;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: rgba(0, 0, 0, 0.8);
+  padding-left: 1.502rem;
+}
+
+.messTime {
+  margin-right: 1.3rem;
+}
+
+.messDate {
+}

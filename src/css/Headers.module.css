@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.header {
+  width: auto;
+  min-height: 8rem;
+  background-color: #3521b5;
+
+  position: relative;
+}
+
+.logobtnBox {
+  width: 30.2rem;
+  /* width: 24.77rem; */
+  height: 10rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.logo {
+  height: 5.25rem;
+  width: 3.5rem;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.btnHeader {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btnImage {
+}
+
+.headerIcon {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 8.3rem;
+  height: 8rem;
+  width: 100%;
+  /* background-color: red; */
+
+  position: relative;
+}
+
+.note {
+  width: 3rem;
+  height: 3rem;
+  color: #e2e2ec;
+  margin-right: 7.2rem;
+  cursor: pointer;
+}
+
+.icon1Span {
+  background-color: #fff;
+  color: red;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+
+  position: absolute;
+  top: 1.8rem;
+  right: 17.6rem;
+}
+
+.avater {
+  width: 3rem;
+  height: 3rem;
+  color: #e2e2ec;
+  cursor: pointer;
+  margin-right: 8.3rem;
+}

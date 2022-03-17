@@ -1,0 +1,126 @@
+.tableContainer {
+  position: relative;
+}
+
+.tableImgBox {
+  position: absolute;
+  top: 1.6rem;
+  right: 3rem;
+  background: #3521b536;
+  padding: 0.3rem;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+
+.tableImg {
+  object-fit: cover;
+}
+
+.messTable .messTableHCl {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #000;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(34, 204, 194, 0.3);
+  text-align: left;
+}
+
+.messTable .messTableBCl {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: #fff;
+  border-bottom: 1px solid rgba(34, 204, 194, 0.3);
+  width: 18.7rem;
+  text-align: left;
+}
+
+.messTable .messTableBCl:nth-child(1) {
+  width: 4rem;
+}
+
+.messTable .messTableBCl:nth-child(2) {
+  width: 0rem;
+}
+
+.messTable .messTableBCl:nth-child(3) {
+  width: 15rem;
+}
+
+.messTable .messTableBCl:nth-child(4) {
+  width: 7rem;
+  padding-left: 2rem;
+}
+
+.messTable .messTableBCl:nth-child(5) {
+  width: 7rem;
+}
+
+.messTable .messTableBCl:nth-child(6) {
+  width: 6.2rem;
+}
+
+.messTableHeadBox {
+  font-size: 1.9rem;
+}
+
+.messTableHeadBox .messTableHR {
+  font-size: 3rem;
+}
+
+.messTableHR {
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #000;
+}
+
+.messTableHCl {
+}
+
+.messTableBody {
+}
+
+.messTableBR {
+}
+
+.messTableBCl {
+}
+
+.paginationBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 4rem;
+  margin-right: 10rem;
+}
+
+.pagination1 {
+  width: 2.5rem;
+  height: 2.2rem;
+  font-weight: 1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #427a98;
+  border: 0.5px solid #427a98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pagination2 {
+  width: 2.5rem;
+  height: 2.2rem;
+  font-weight: 1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #fff;
+  background: #3521b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

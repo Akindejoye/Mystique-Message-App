@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.contactWrapper {
+  margin-top: 1.5rem;
+  padding-top: 2.9rem;
+  background-color: #fff;
+  padding-bottom: 25rem;
+  width: 100%;
+  min-height: 98.3rem;
+  position: relative;
+}
+
+.sectionContacts {
+  /* position: relative; */
+}
+
+.contactsList {
+  list-style: none;
+  margin-top: 4.2rem;
+  margin-left: 3rem;
+  padding-bottom: 2.2rem;
+  display: flex;
+}
+
+.contactsListItem {
+  /* margin-right: 10.9rem; */
+  border-bottom: 0.5px solid #c4c4c4;
+  width: 100%;
+}
+
+.contactsListItemBtn {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #1e1e1e;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.litstItem2 {
+  margin-right: 60rem;
+  width: 20rem;
+}
+
+/* .border {
+  display: block;
+  margin-left: 3rem;
+  border-bottom: 0.5px solid #c4c4c4;
+} */
+
+.active {
+  color: #3521b5;
+  border-bottom: 5px solid #4b36d7;
+  padding-bottom: 2.2rem;
+}
+
+.contactsBody {
+}
+
+.contactsBodyTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4.75rem;
+}
+
+.contactsBodyHeader {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #1e1e1e;
+  margin-left: 3rem;
+}
+
+.headerBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 14.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.iconBox {
+  color: #3521b5;
+  font-size: 1.5rem;
+  background: #fff;
+  padding: 0.1rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid currentColor;
+  margin-right: 8px;
+}
+
+.headerIcon {
+}
+
+.headerBtnText {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #3521b5;
+}
+
+.contactImgBox {
+  margin-top: 20.3rem;
+  display: flex;
+  justify-content: center;
+}

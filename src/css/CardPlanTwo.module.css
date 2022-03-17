@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.cardBox {
+  width: 25.6rem;
+  height: 12.8rem;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mostBox {
+  width: 8.6rem;
+  height: 8.6rem;
+  border-radius: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+  background: linear-gradient(
+    180deg,
+    #3521b5 0%,
+    #ffffff 36.79%,
+    #ffffff 67.03%,
+    rgba(53, 33, 181, 0.5) 100%
+  );
+}
+
+.cardText1,
+.cardText2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+  color: #483aa6;
+  opacity: 0.6;
+}
+
+.cardText2 {
+}
+
+.figureBox {
+}
+
+.figure1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: #212327;
+  margin-bottom: 4px;
+}
+
+.figure2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #212327;
+}

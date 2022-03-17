@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.noteWrapper {
+  margin: 3rem auto;
+  width: 60.4rem;
+  height: 80rem;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(34, 91, 204, 0.1);
+  margin-bottom: 20rem;
+}
+
+.noteCentered {
+  padding-top: 3.9rem;
+}
+
+.noteHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3.9rem;
+  margin-bottom: 5.3rem;
+  margin-right: 5.4rem;
+}
+
+.noteHeaderLeftBox {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+}
+
+.noteTag {
+  margin-right: 4.5rem;
+}
+
+.noteHeaderRightBox {
+  display: flex;
+  align-items: center;
+}
+
+.headerDeletBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 5rem;
+}
+
+.headerDeletBtnImg {
+  width: 1.5rem;
+  height: 2.083rem;
+}
+
+.headerCloseBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.headerCloseBtnImg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.noteText {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #2a9d8f;
+  margin-bottom: 2.5rem;
+  margin-left: 3.9rem;
+}
+
+.noteSubHeader {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #212327;
+  margin-left: 3.9rem;
+  margin-bottom: 2.6rem;
+}
+
+.detailSenderBox {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+  margin-left: 3.9rem;
+  margin-bottom: 2.8rem;
+}
+
+.senderTag {
+  margin-right: 6.4rem;
+}
+
+.detailContactsBox {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+  margin-left: 3.9rem;
+  margin-bottom: 3.8rem;
+}
+
+.contactTag {
+  margin-right: 7.4rem;
+}
+
+.contact {
+}
+
+.detailMessageBox {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+  margin-left: 3.9rem;
+  margin-bottom: 4.6rem;
+  display: flex;
+}
+
+.messageTag {
+  margin-right: 7.5rem;
+}
+
+.message {
+  font-size: 1.3rem;
+}
+
+.detailDateBox {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+  margin-left: 3.9rem;
+}
+
+.dateTag {
+  margin-right: 10rem;
+}
+
+.date {
+}

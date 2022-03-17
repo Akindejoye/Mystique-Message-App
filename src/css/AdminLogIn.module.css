@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.adminBox {
+  background-color: #fff;
+  width: auto;
+  height: auto;
+  /* padding-bottom: 10rem; */
+}
+
+.loginBox {
+  max-width: 127.8rem;
+  height: 89.2rem;
+  background-color: #fff;
+  margin: 5rem auto;
+}
+
+.containerCentered {
+  display: flex;
+}
+
+.logoCentered {
+  width: 21.2rem;
+  height: 10.5rem;
+  display: flex;
+  align-items: center;
+  margin-right: 10.8rem;
+  margin-top: 4.8rem;
+  margin-left: 13.8rem;
+}
+
+.logoBox {
+  margin-right: 2.8rem;
+}
+
+.logoTextBox {
+}
+
+.logoText1,
+.logoText2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  color: #264653;
+  text-transform: uppercase;
+}
+
+.adminCentered {
+  width: 38.1rem;
+  height: 49.4rem;
+  margin-top: 7.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adminText {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  color: #264653;
+  text-transform: uppercase;
+}
+
+.addAdminBox {
+  display: flex;
+  align-items: center;
+}
+
+.adminBtnBox {
+  margin-right: 1.6rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.textAdmin {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #212327;
+}
+
+.textlogin {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.emailLabel {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #000;
+  opacity: 0.4;
+}
+
+.emailBoxCentered {
+  width: 38rem;
+  height: 4.5rem;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+}
+
+.emailIcon {
+  margin-left: 1rem;
+}
+
+.emailInput {
+  width: 87%;
+  height: 100%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  margin-left: 1.65rem;
+  border: none;
+  outline: none;
+}
+
+.passwordLabel {
+  display: block;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #000;
+  opacity: 0.4;
+}
+
+.passBoxCentered {
+  width: 38rem;
+  height: 4.5rem;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+}
+
+.passwordIcon {
+  margin-left: 1rem;
+}
+
+.passwordInput {
+  width: 87%;
+  height: 100%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  margin-left: 1.65rem;
+  border: none;
+  outline: none;
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.loginBtn {
+  width: 14.6rem;
+  height: 4.5rem;
+  background-color: #3521b5;
+  margin-top: 2rem;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: #212327;
+  letter-spacing: 0.5px;
+  color: #fff;
+  opacity: 0.9;
+  border: none;
+  outline: none;
+}

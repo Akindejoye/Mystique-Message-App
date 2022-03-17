@@ -1,0 +1,41 @@
+.cardBox {
+}
+
+.cardCentered {
+  width: 23rem;
+  height: 11.2rem;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #eba05b;
+  border-left: 10px solid #eba05b;
+}
+
+.cardImg {
+  width: 2rem;
+  height: 1.475rem;
+}
+
+.cardTextBox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4.4rem;
+}
+
+.cardFig {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.7rem;
+  margin-bottom: 5px;
+  color: #eba05b;
+}
+
+.cardText {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+  color: rgba(235, 160, 91, 0.8);
+}

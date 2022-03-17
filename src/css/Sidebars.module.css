@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.sidebarContainer {
+  width: 30.2rem;
+  height: 130rem;
+  background-color: #fff;
+}
+
+.sidebarNav {
+  list-style: none;
+  margin-left: 5rem;
+}
+
+.navImgUser {
+  padding-right: 4rem;
+}
+
+.navList {
+  height: 6rem;
+}
+
+.active {
+  background-color: #f0f3f8;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.navList:hover,
+.navList:active {
+  background-color: #f0f3f8;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.navList:not(:last-child) {
+  margin-bottom: 6.4rem;
+}
+
+.navA:link,
+.navA:visited {
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+/* .active {
+  background-color: #f0f3f8;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+} */
+
+.activeb {
+  /* height: 70px;
+  width: 100%;
+  background: red; */
+}
+
+.navMargin {
+  margin-top: 6rem;
+}
+
+.navInnerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* background-color: yellow; */
+}
+
+.navImg {
+  margin-right: 4rem;
+}
+
+.navText {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  padding-right: 2rem;
+}
+
+.navTextDash {
+  text-indent: 1rem;
+}

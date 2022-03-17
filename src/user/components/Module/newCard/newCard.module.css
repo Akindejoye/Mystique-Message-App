@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.newCardWrapper {
+  width: 54.99rem;
+  height: 59.915rem;
+  background: #f0f3f8;
+  margin: 3rem auto;
+}
+
+.newCardCloseBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.newCardCloseBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding-top: 3.593rem;
+  margin-right: 5.956rem;
+}
+
+.newCardCloseBtnImg {
+  margin-bottom: 1.9rem;
+}
+
+.newCardHeaderBox {
+  display: flex;
+}
+
+.newCardHeader {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  margin-right: 5.3rem;
+  margin-left: 7.7rem;
+  color: #212327;
+}
+
+.newCardMaster {
+  width: 2.597rem;
+  height: 1.59rem;
+  margin-right: 1.203rem;
+}
+
+.newVisaText {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  margin-right: 1.3rem;
+  color: #000;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.newCardVisa {
+  width: 2rem;
+  height: 2rem;
+}
+
+.newCardForm {
+  margin-top: 3.3rem;
+  margin-left: 7.4rem;
+}
+
+.cardNumberBox {
+  position: relative;
+}
+
+.cardNumberLabel {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #000;
+  border: 7px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  top: -1.7rem;
+  left: 1.5rem;
+  z-index: 500;
+}
+
+.inputCardNumber {
+  width: 39.3rem;
+  height: 5.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #141414;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 2rem;
+  background: none;
+  opacity: 0.5;
+}
+
+.inputCardNumber::placeholder {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #141414;
+  opacity: 0.5;
+}
+
+.expirationMainBox {
+  display: flex;
+  align-items: center;
+  margin-top: 3.4rem;
+}
+
+.expirationMonthBox {
+  margin-right: 1.3rem;
+  position: relative;
+}
+
+.monthLabel {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #000;
+  border: 7px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  top: -1.7rem;
+  left: 1.1rem;
+  z-index: 500;
+}
+
+.expirationMonth {
+  width: 8.9rem;
+  height: 4.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #141414;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 2rem;
+  background: none;
+  opacity: 0.5;
+}
+
+.dividerBox {
+  margin-right: 1.3rem;
+}
+
+.divider {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #000;
+  opacity: 0.24;
+}
+
+.expirationYearBox {
+  margin-right: 3.3rem;
+}
+
+.expirationYear {
+  width: 8.9rem;
+  height: 4.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #141414;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding-left: 2rem;
+  outline: none;
+  background: none;
+  opacity: 0.5;
+}
+
+.CVVBox {
+  position: relative;
+}
+
+.cardCVVLabel {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #000;
+  border: 7px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  top: -1.7rem;
+  left: 1.1rem;
+  z-index: 500;
+}
+
+.CVV {
+  width: 14.8rem;
+  height: 5.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #141414;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 2rem;
+  background: none;
+  opacity: 0.5;
+}
+
+.moreInfoIcon {
+  position: absolute;
+  top: 2rem;
+  right: 1.7rem;
+  cursor: pointer;
+}
+
+.cardTypeBox {
+  position: relative;
+  margin-top: 3.9rem;
+}
+
+.cardTypeLabel {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #000;
+  border: 7px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  top: -1.7rem;
+  left: 1.1rem;
+  z-index: 500;
+}
+
+.cardTypeSelect {
+  width: 39.3rem;
+  height: 5.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #141414;
+  opacity: 0.5;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 2rem;
+  background: none;
+  cursor: pointer;
+}
+
+.cardTypeSelect:focus,
+.cardTypeSelect:hover {
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.9);
+}
+
+.cardTypeSelect .cardTypeOption {
+  background: #f0f3f8;
+}
+
+.cardTypeOption {
+  background: none;
+}
+
+.nameOnCardBox {
+  position: relative;
+  margin-top: 2.9rem;
+}
+
+.nameOnCardLabel {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #000;
+  border: 7px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  top: -1.7rem;
+  left: 1.1rem;
+  z-index: 500;
+}
+
+.nameOnCard {
+  width: 39.3rem;
+  height: 5.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 137.8%;
+  color: #141414;
+  opacity: 0.5;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 2rem;
+  background: none;
+}
+
+.addCardBtnBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.9rem;
+}
+
+.addCardBtn {
+  width: 21.4rem;
+  height: 3.8rem;
+  background: #8c87af;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 137.8%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

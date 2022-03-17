@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+  background: #f0f3f8;
+}
+
+.templateWrapper {
+}
+
+.templateCentered {
+  margin: 3rem auto;
+  max-width: 54.099rem;
+  min-height: 59.915rem;
+  background-color: #fff;
+}
+
+.templateHeaderBox {
+  padding-top: 3.4rem;
+  margin-right: 3.8rem;
+  margin-bottom: 1.8rem;
+  margin-left: 3.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.templateHeaderText {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #1e1e1e;
+}
+
+.templateCloseBtn {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  background-color: red;
+}
+
+.closeBtnImg {
+  cursor: pointer;
+}
+
+.templateWords {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #1e1e1e;
+  margin-left: 3.9rem;
+  margin-bottom: 4.6rem;
+}
+
+.templateUploadBox {
+  margin-bottom: 4.5rem;
+}
+
+.uploadLabel {
+  width: 20.8rem;
+  height: 5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #fff;
+  background-color: #8c87af;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 3.9rem;
+}
+
+.templateUpload {
+  display: none;
+}
+
+.templateSenderBox {
+  margin-bottom: 4.7rem;
+}
+
+.templateSender {
+  width: 39.6rem;
+  height: 6rem;
+  border: 0.5px solid #c4c4c4;
+  background-color: #f0f3f8;
+  margin-left: 3.9rem;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #000;
+  padding-left: 3.3rem;
+}
+
+.templateMessageBox {
+  margin-bottom: 4.2rem;
+}
+
+.templateMessage {
+  width: 39.6rem;
+  height: 13.4rem;
+  border: 0.5px solid #c4c4c4;
+  background-color: #f0f3f8;
+  margin-left: 3.9rem;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #000;
+  padding-left: 3.3rem;
+  padding-bottom: 9rem;
+}
+
+.templateCreateBtnBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10.5rem;
+}
+
+.templateCreateBtn {
+  width: 15.3rem;
+  height: 5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #fff;
+  background-color: #3521b5;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}

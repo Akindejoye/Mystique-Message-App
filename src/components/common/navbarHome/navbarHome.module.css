@@ -1,0 +1,57 @@
+.navbarCentered {
+  padding-top: 2.9rem;
+}
+
+.navbar {
+  width: 116.6rem;
+  height: 8.7rem;
+  margin-left: 15.2rem;
+  margin-bottom: 11.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoBox {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  width: 5.8rem;
+  height: 8.7rem;
+  margin-right: 0.8rem;
+}
+
+.logoText {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  color: #fff;
+}
+
+.navLinks {
+  margin-left: 2.5rem;
+}
+
+.links {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #979797;
+  margin-right: 4rem;
+}
+
+.btnText {
+  width: 13.8rem;
+  height: 4.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #3521b5;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

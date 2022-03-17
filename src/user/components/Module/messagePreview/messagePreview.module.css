@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.previewWrapper {
+}
+
+.previewCentered {
+  max-width: 60.4rem;
+  min-height: 106.6rem;
+  background-color: #fff;
+  margin-top: 1.8rem;
+  margin-left: 18rem;
+}
+
+.previewHeaderBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.4rem;
+}
+
+.headerTopBox {
+  padding-top: 3.4rem;
+  margin-right: 3.8rem;
+  margin-bottom: 1.8rem;
+  margin-left: 3.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerTopText {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+}
+
+.headerCloseBtn {
+  border: none;
+  background: transparent;
+}
+
+.closeBtnImg {
+}
+
+.headerBottomText {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+  margin-left: 3.9rem;
+}
+
+.previewBodyBox {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+  padding-top: 2.9rem;
+  padding-left: 3.9rem;
+  padding-bottom: 4.9rem;
+  box-shadow: 0px 0px 10px rgba(34, 91, 204, 0.1);
+}
+
+.senderBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.8rem;
+}
+
+.senderText {
+  margin-right: 6.4rem;
+}
+
+.senderValue {
+}
+
+.timelineBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.1rem;
+}
+
+.timelineText {
+  margin-right: 7.6rem;
+}
+
+.timelineValue {
+}
+
+.messageBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.9rem;
+  position: relative;
+}
+
+.messageText {
+  margin-right: 8.74rem;
+}
+
+.messageValue {
+  font-size: 1.3rem;
+  background-color: #e2e2ec;
+  padding: 3rem 3.4rem 3.8rem 3.2rem;
+}
+
+.messageSpan {
+  position: absolute;
+  right: 4rem;
+  bottom: 0.5rem;
+
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #212327;
+}
+
+.recipientsBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.8rem;
+}
+
+.recipientsText {
+  margin-right: 2.5rem;
+}
+
+.recipientsValue {
+}
+
+.requiredBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.1rem;
+}
+
+.requiredText {
+  margin-right: 1.9rem;
+}
+
+.requiredValue {
+}
+
+.creditsBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5.2rem;
+}
+
+.creditsText {
+  margin-right: 2rem;
+}
+
+.creditsValue {
+  margin-right: 7px;
+}
+
+.creditsSpan {
+  font-size: 8px;
+  color: #ff0000;
+}
+
+.previewBtnBox {
+  display: flex;
+  justify-content: center;
+}
+
+.editBtn {
+  width: 17.2rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #3521b5;
+  border: 0.5px solid #3521b5;
+  background-color: #fff;
+  margin-right: 1.8rem;
+}
+
+.sendBtn {
+  width: 17.2rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  color: #fff;
+  border: none;
+  background-color: #3521b5;
+}

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.contentWrapper {
+  margin: 2rem auto;
+  width: 144rem;
+  min-height: 90rem;
+  background: conic-gradient(
+    from 239.4deg at 49.96% 95.31%,
+    #4b36d7 -50.09deg,
+    #ffffff 26.09deg,
+    #4b36d7 60.67deg,
+    rgba(75, 54, 215, 0.68) 110.27deg,
+    #4b36d7 173.44deg,
+    #ffffff 190.83deg,
+    #4b36d7 309.91deg,
+    #ffffff 386.09deg
+  );
+}
+
+.backtoMainBox {
+  display: flex;
+  padding-top: 4.9rem;
+  cursor: pointer;
+}
+
+.backtoMainImg {
+  margin-left: 11.1rem;
+  margin-right: 1.1rem;
+}
+
+.backtoMainText {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.logoBox {
+  display: flex;
+  justify-content: center;
+}
+
+.logoText {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.messageCon {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.messageBox {
+  width: 50.8rem;
+  height: 52.5rem;
+  background: rgba(75, 54, 215, 0.28);
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  padding-left: 9.3rem;
+}
+
+.messageImgBox {
+  /* margin-top: 2rem; */
+}
+
+.messageHeader {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.7rem;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.messageText {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin-top: -2.2rem;
+}
+
+.spanEmail {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin-top: -2.2rem;
+}

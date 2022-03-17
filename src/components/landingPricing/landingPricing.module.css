@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+
+  position: relative;
+}
+
+.container {
+  width: auto;
+  min-height: auto;
+}
+
+/************************************************************************/
+/***************************** HEADER ************************************/
+
+.header {
+  width: 100%;
+  min-height: 74.4rem;
+  background-color: #4b36d7;
+
+  position: relative;
+}
+
+.headerTextBox {
+}
+
+.headerTextCentered {
+  margin-left: 15.2rem;
+}
+
+.textHeader {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.3rem;
+  color: #fff;
+  margin-bottom: 4.6rem;
+}
+
+.textSubHeader {
+  margin-bottom: 4.3rem;
+}
+
+.textSubHeader,
+.text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #fff;
+}
+
+.text {
+  line-height: 3rem;
+  margin-bottom: 4.4rem;
+}
+
+.textRecommends {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #fff;
+  margin-bottom: 5.8rem;
+}
+
+.headerTexBtn2 {
+  width: 23.8rem;
+  height: 6rem;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #3521b5;
+}
+
+.backgroundImage1 {
+  position: absolute;
+  top: 21rem;
+  left: 32rem;
+  z-index: 0;
+}
+
+.backgroundImage2 {
+  position: absolute;
+  top: 15.5rem;
+  left: 73rem;
+  z-index: 0;
+}
+
+.backgroundImage4 {
+  position: absolute;
+  top: 19.8rem;
+  right: 23.425rem;
+  z-index: 999;
+  width: 30rem;
+  height: 30rem;
+  fill: #fff;
+}
+
+.priceRatesCentered {
+  width: auto;
+  height: auto;
+  margin: 0rem 15.6rem 0rem 15.2rem;
+  background-color: #f0f3f8;
+  padding-top: 2.9rem;
+
+  position: relative;
+  z-index: -50;
+}
+
+.priceRatesItems {
+  margin-top: 20rem;
+}
+
+.priceRatesHeader {
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  color: #212327;
+  margin-top: 10.6rem;
+}
+
+.priceRatesUnitUR {
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 24.9rem;
+  right: 22rem;
+}
+
+.priceRatesUnitBL {
+  display: inline-block;
+  margin-left: 18.5rem;
+  text-align: right;
+}
+
+.priceRatesUnitBR {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-align: right;
+  position: absolute;
+  top: 61.9rem;
+  right: 20rem;
+}
+
+.priceRatesUnit {
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 27.5rem;
+  left: 26rem;
+}
+
+.unitRate {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  line-height: 3.1rem;
+  color: #212327;
+  text-transform: uppercase;
+}
+
+.unitPrice {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 4.9rem;
+  margin-bottom: 1.3rem;
+  color: #212327;
+  text-transform: uppercase;
+}
+
+.unit {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #212327;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.priceRatesUnitImgBox {
+  display: flex;
+  justify-content: center;
+}
+
+.tablePlanBox {
+  margin-top: 31.8rem;
+}
+
+.tableStyle {
+  background-color: #f0f3f8;
+}
+
+.tableStyleHeader {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  color: #212327;
+  text-align: left;
+  padding-bottom: 10.1rem;
+  background-color: #f0f3f8;
+}
+
+.tableStyleRowColumn {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  color: #212327;
+  padding-bottom: 10.1rem;
+  background-color: #f0f3f8;
+}
+
+.paymentMethod {
+}
+
+.paymentMethodCentered {
+  padding-bottom: 19.5rem;
+  margin-top: 28rem;
+  display: flex;
+  align-items: center;
+}
+
+.paymentTextBox {
+  margin-right: 3.1rem;
+}
+
+.paymentMethodHeader {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.7rem;
+  color: #000;
+  margin-bottom: 4rem;
+}
+
+.paymentMethodText1,
+.paymentMethodText2,
+.paymentMethodText3 {
+  font-size: 1.8rem;
+  font-weight: 350;
+  line-height: 2.2rem;
+  color: #000;
+  margin-bottom: 4rem;
+}

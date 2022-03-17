@@ -1,0 +1,93 @@
+.navProfileWrapper {
+  margin-right: 3px;
+  background-color: #fff;
+  flex: 1.35;
+}
+
+.navProfileCentered {
+  margin-top: 7.4rem;
+}
+
+.navProfile {
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.listProfile {
+  width: 24rem;
+  height: 2.2rem;
+  margin-bottom: 3.8rem;
+  margin-left: 3.1rem;
+  position: relative;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.listProfileActive {
+  width: 24rem;
+  height: 2.2rem;
+  margin-bottom: 3.8rem;
+  margin-left: 3.1rem;
+  position: relative;
+  color: #3521b5;
+}
+
+.active {
+  color: green;
+  font-size: 3rem;
+}
+
+.normal {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.detailsHover:hover::after {
+  content: url("./arrow-b.svg");
+  display: block;
+  position: absolute;
+  top: 0.2rem;
+  right: 8.2rem;
+}
+
+.detailsHover:hover {
+  color: #3521b5;
+}
+
+.editHover:hover::after {
+  content: url("./arrow-b.svg");
+  display: block;
+  position: absolute;
+  top: 0.2rem;
+  right: 10.5rem;
+}
+
+.editHover:hover {
+  color: #3521b5;
+}
+
+.notificationHover:hover::after {
+  content: url("./arrow-b.svg");
+  display: block;
+  position: absolute;
+  top: 0.2rem;
+  right: 10rem;
+}
+
+.notificationHover:hover {
+  color: #3521b5;
+}
+
+.securityHover:hover::after {
+  content: url("./arrow-b.svg");
+  display: block;
+  position: absolute;
+  top: 0.2rem;
+  right: 3.2rem;
+}
+
+.securityHover:hover {
+  color: #3521b5;
+}
+
+.lock {
+  margin-right: 1.7rem;
+}

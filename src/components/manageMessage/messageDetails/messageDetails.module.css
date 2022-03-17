@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  background-color: #f0f3f8;
+  min-height: 100vh;
+
+  position: relative;
+}
+
+.messageBox {
+}
+
+.messageCentered {
+  width: 60.4rem;
+  height: 70rem;
+  background-color: #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnTopBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 3.8rem;
+  padding-top: 2.7rem;
+}
+
+.btnDelete {
+  border: none;
+  background-color: #fff;
+}
+
+.btnClose {
+  display: inline-block;
+  border: none;
+  margin-left: 2.6rem;
+  background-color: #fff;
+}
+
+.btnCloseImg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.btnDeleteImg {
+  width: 1.5rem;
+  height: 2.83rem;
+}
+
+.messageHeader {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+  margin-bottom: 2.4rem;
+  margin-left: 2.9rem;
+}
+
+.messageDataBox {
+}
+
+.dataTop {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2.1rem;
+}
+
+.profilePics {
+  width: 10rem;
+  height: 10rem;
+}
+
+.profileName {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.dataMiddle {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5.1rem;
+}
+
+.dateTag {
+  width: 7rem;
+  margin-left: 0.5rem;
+}
+
+.dateTime {
+  width: 6rem;
+}
+
+.dataBottom {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 6.8rem;
+}
+
+.unitTag {
+  width: 7rem;
+}
+
+.messageReportBox {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #eba058;
+
+  display: flex;
+  justify-content: space-around;
+  margin-left: -0.2rem;
+  margin-bottom: 6.4rem;
+}
+
+.detailTableBox {
+}
+
+.detailTable {
+  width: 40rem;
+  margin-left: 18.9rem;
+}
+
+.detailTableRow {
+}
+
+.detailTableHeader {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000;
+  background-color: #fff;
+  text-align: left;
+}
+
+.detailTableColumn {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #000000;
+  background-color: #fff;
+}
